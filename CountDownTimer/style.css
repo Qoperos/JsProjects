@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #22394b;
+}
+span {
+  font-size: 100px;
+  background-image: linear-gradient(90deg, #5552eefe, #ea32ea);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+span.text {
+  font-size: large;
+  padding: 1rem;
+}
