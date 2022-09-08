@@ -4,7 +4,6 @@ const minutes = document.querySelector(".minute");
 const seconds = document.querySelector(".second");
 const audioM = document.querySelector('#play');
 
-
 const newYears = "11 sep 2022";
 
 const countDownTimer = () => {
@@ -55,5 +54,4 @@ function formatTime(time) {
 async function sound() {
     await audioM.play();
 }
-
 setInterval(countDownTimer, 1000);
